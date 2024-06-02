@@ -1,0 +1,13 @@
+const config = {
+    AUTH0_DOMAIN: import.meta.env.VITE_AUTH0_DOMAIN,
+    AUTH0_CLIENT_ID: import.meta.env.VITE_AUTH0_CLIENT_ID,
+    AUTH0_CALLBACK_URL: import.meta.env.VITE_AUTH0_CALLBACK_URL,
+    AUTH0_AUDIENCE: import.meta.env.VITE_AUTH0_AUDIENCE,
+    API_SERVER_URL: import.meta.env.VITE_API_SERVER_URL,
+    PUBLIC_AWS_ACCESS_KEY_ID: import.meta.env.VITE_PUBLIC_AWS_ACCESS_KEY_ID,
+    PUBLIC_AWS_SECRET_ACCESS_KEY: import.meta.env.VITE_PUBLIC_AWS_SECRET_ACCESS_KEY,
+    PUBLIC_AWS_REGION: import.meta.env.VITE_PUBLIC_AWS_REGION,
+    AWS_BUCKET_NAME: import.meta.env.VITE_AWS_FILES_BUCKET_NAME,
+    BLOCKCHAIN_EXPLORER: import.meta.env.VITE_BLOCKCHAIN_EXPLORER,
+};
+export default config;
