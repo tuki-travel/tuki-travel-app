@@ -1,4 +1,4 @@
-import React, { StrictMode } from 'react';
+import { StrictMode } from 'react';
 import ReactDOM from 'react-dom/client';
 import { RouterProvider, createRouter, NotFoundRoute } from '@tanstack/react-router';
 import { Route as rootRoute } from './routes/__root.tsx';
